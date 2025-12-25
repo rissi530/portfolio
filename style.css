@@ -1,0 +1,309 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+}
+
+.container1{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+
+
+.kryesori a{
+    color: #c7c7c7;
+    font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.kryesori1 a{
+    color: #c7c7c7;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.kryesori1 a:hover{
+    border-bottom-color: black;
+}
+
+
+
+
+
+
+
+
+
+.kontainer{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kontaineri{
+    width: 45%;
+    gap: 60px;
+
+} 
+
+.konth1{
+    color: white;
+    font-size: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 0.9;
+}
+
+.kontp{
+    color: #c7c7c7;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.butoni{
+    gap: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.buton1 i{
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 8px;
+    color: black;
+    align-items: center;
+}
+
+.buton1{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: rgb(215, 232, 135);
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight:600;
+    padding: 4px;
+    border-radius: 50px;
+    width: 40%;
+    border: none;
+    
+}
+
+.buton2{
+    font-size: 25px;
+    background-color: #1a1a1a;
+    color: rgb(215, 232, 135);
+    border-radius: 50%;
+    padding: 13px;
+    border: none;
+}
+
+.buton3{
+    font-size: 25px;
+    background-color: #1a1a1a;
+    color: rgb(215, 232, 135);
+    border-radius: 50%;
+    padding: 13px;
+    border: none;
+}
+
+.kontainer2 img{
+    width: 568px;
+    height: 568px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.vij{
+    width: 90%;
+    margin: 0 auto;     
+    height: 1px;           
+    background-color:#c7c7c7;
+    opacity: 0.5;
+    margin-top: 80px;  
+}
+
+.work{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.project{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.project h1{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight:400;
+    font-size: 80px;
+}
+
+.project p{
+    color: #c7c7c7;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 42%;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.project1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.projekt {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-top: 80px;
+}
+
+.projektimg img {
+    background-color: #1a1a1a;
+    padding: 45px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 500px; 
+    height: auto;
+    border-radius: 14px; 
+}
+
+.projektpro {
+    width: 40%;
+    max-width: 600px; /* limiton gjerësinë e tekstit */
+}
+
+.projektpro h1 {
+    color: white;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.projektpro p {
+    margin-top: 20px;
+    color: #c7c7c7;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.projektpro h3{
+    margin-top: 20px;
+    font-family: Manrope, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+  border-bottom: 1px solid white;
+  padding-bottom: 6px;
+  width: 100%;
+}
+
+
+.h2{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+.projektpro h2{
+    color: white;
+    margin-top: 20px;
+    font-family: Manrope, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    border-bottom: 1px solid white;
+    padding-bottom: 6px;
+    width: 100%;
+  }
+
+  .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link a{
+
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(215, 232, 135);
+    text-underline-offset: 4px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.projekt{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projektimg img{
+    border: 1px solid white;
+}
+
+.projektpro{
+    border: 1px solid white;
+}
+
+.projekth1{
+    color: white;
+}
+
+.projektip{
+    color: #c7c7c7;
+
+} */
+
