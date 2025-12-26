@@ -175,7 +175,7 @@ img {
     width: 80%;
     margin: 100px auto 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -268,8 +268,30 @@ img {
     text-underline-offset: 4px;
 }
 
+.info{
+    margin-top: 20px;
+    border-bottom: 1px solid #c7c7c7;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
 .project-meta {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #c7c7c7;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.project-meta1 {
+    margin-top: 20px;
+    font-size: 17px;
+    border-bottom: 0.6px solid #c7c7c7;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .about-image {
@@ -311,8 +333,17 @@ img {
     width: 80%;
     margin: 0 auto 150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 60px;
+}
+
+.contact-left h1{
+    font-size: 90px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.contact input{
+    width: 100%;
 }
 
 .social-actions {
@@ -325,10 +356,18 @@ img {
 .form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 45px;
 }
 
-.form input,
+.form input{
+    width: 600px;
+    background: #222;
+    padding: 12px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
 .form textarea {
     background: #222;
     padding: 12px;
@@ -475,9 +514,23 @@ h2 {
     border-bottom: 1px solid white;
     display: flex;
     justify-content: space-around;
+
 }
+
+.project-meta1 {
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
 .btn-primary {
     font-size: 13px;
+    padding: 10px;
+}
+
+.btn-primary i{
+    display: none;
 }
 
 .about-left {
