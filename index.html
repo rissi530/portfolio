@@ -1,208 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Eris Sinani</title>
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
+
 <body>
-    <script src="script.js"></script>
 
-
-
-    <div class="container">
-        <div class="container1">
-            <div class="kryesori">
+    <header class="header">
+        <div class="header-inner">
+            <div class="brand">
                 <a href="#">Eris</a>
                 <a href="#">Sinani</a>
             </div>
-            <div class="kryesori1">
+            <nav class="nav" id="nav">
                 <a href="#work">Work</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
+            </nav>
+            <div class="menu-btn" id="menu-btn">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+            </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>HELLO, I AM ERIS SINANI.</h1>
+            <p>A motivated individual with in-depth knowledge of languages and development tools, seeking a position in
+                a growth-oriented company where I can use my skills while developing further.</p>
+
+            <div class="hero-actions">
+                <a href="#contact" class="btn-primary">CONTACT ME <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="https://www.linkedin.com/in/eris-sinani-3aab70267/" target="_blank" class="btn-icon"><i
+                        class="fa-brands fa-linkedin-in" target="_blank"></i></a>
+                <a href="https://github.com/rissi530" target="_blank" class="btn-icon"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
-    </div>
 
-
-
-    <div class="kontainer">
-    <div class="kontaineri">
-        <div class="konth1">
-            HELLO, I AM ERIS SINANI.
+        <div class="hero-img">
+            <img src="punimi.jpg">
         </div>
-        <br>
-        <div class="kontp">
-            <p>
-                A motivated individual with in-depth knowledge of languages and development tools,
-                seeking a position in a growth-oriented company where I can use my skills to the
-                advantage of the company while having the scope to develop my own skills.
-            </p>
+    </section>
+
+    <section id="work" class="section-divider"></section>
+
+    <section class="work-intro">
+        <h1>FEATURED PROJECTS</h1>
+        <p>Selected projects showcasing my passion as a Software Engineer.</p>
+    </section>
+
+    <section class="projects">
+        <div class="project-card">
+            <img src="punimi1.png">
+            <div class="project-info">
+                <h2>Fc Vushtrria</h2>
+                <p>Website for a football club providing information and online tickets.</p>
+                <div class="project-meta">
+                    <span>2023</span>
+                    <span>Frontend</span>
+                </div>
+                <a href="https://rissi530.github.io/vushtrria/" class="project-link">LIVE DEMO</a>
+            </div>
         </div>
-        <br><br>
-        <div class="butoni">
-            <a href="#contact" class="buton1">
-                CONTACT ME <i class="fa-solid fa-arrow-right"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/eris-sinani-3aab70267/"
-               target="_blank"
-               class="buton2">
-                <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/rissi530"
-               target="_blank"
-               class="buton2">
-                <i class="fa-brands fa-github"></i>
-            </a>
+
+        <div class="project-card">
+            <img src="punimi2.png">
+            <div class="project-info">
+                <h2>Camping</h2>
+                <p>Website dedicated to inviting people to camping experiences.</p>
+                <div class="project-meta">
+                    <span>2023</span>
+                    <span>Frontend</span>
+                </div>
+                <a href="https://rissi530.github.io/gushti-projekt/" class="project-link">LIVE DEMO</a>
+            </div>
         </div>
-    </div>
-    <div class="kontainer2">
-        <div class="img">
-            <img src="punimi.jpg" alt="">
+
+        <div class="project-card">
+            <img src="punimi3.png">
+            <div class="project-info">
+                <h2>Café Shop</h2>
+                <p>Website for a café focusing on reservations and presentation.</p>
+                <div class="project-meta">
+                    <span>2023</span>
+                    <span>Frontend</span>
+                </div>
+                <a href="https://rissi530.github.io/punimi/" class="project-link">LIVE DEMO</a>
+            </div>
         </div>
-    </div>
+    </section>
 
-</div>
+    <section id="about" class="about">
+        <div class="section-divider"></div>
 
-
-
-
-        
-            
-            
-        <div id="work" class="work"><div class="vij"></div></div>
-            
-            <div class="project">
-                <h1>FEATURED PROJECTS</h1> 
-                <p>Here are some of the selected projects that
-                showcasemy passion as a Software Engineer.</p>
+        <div class="about-container">
+            <div class="about-left">
+                <h1>ABOUT ME</h1>
             </div>
 
+            <div class="about-right">
+                <h2>I am a software developer based in Vushtrri, Kosovo. Has Computer Engineering background.</h2>
 
-    <div class="project1">
-    <div class="projekt">
-        <div class="projektimg">
-            <a href="https://rissi530.github.io/vushtrria/">
-                <img src="punimi1.png" alt="Fc Vushtrria">
-            </a>
-        </div>
-        <div class="projektpro">
-            <h1>Fc Vushtrria</h1>
-            <p>Website for a football club, Fc Vushtrria.
-            It helps for any information of the club and for online tickets.</p>
-            <h3>PROJECT INFO</h3>
+                <p>I also share my passion and knowledge for web development as a Software Developer Instructor at
+                    Innovation Academy, where I design and deliver engaging and interactive courses on Python,
+                    JavaScript, and SQL. I enjoy helping students learn and master the skills and concepts that are
+                    essential for becoming proficient full stack engineers in the StarLabs industry.</p>
 
-            <div class="h2"><h2>Year</h2><h2></h2><h2>2023</h2></div>
-            <div class="h2"><h2>Role</h2><h2></h2><h2>Frontend</h2></div>
-            
-            <div class="link"><a href="https://rissi530.github.io/vushtrria/">LIVE DEMO<i class="fa-thin fa-arrow-right"></i></a></div>
-        </div>
-  
-
-    </div>
-</div>
-
-
- <div class="project1">
-    <div class="projekt">
-        <div class="projektimg">
-            <a href="https://rissi530.github.io/gushti-projekt/">
-                <img src="punimi2.png" alt="">
-            </a>
-        </div>
-        <div class="projektpro">
-            <h1>Camping</h1>
-            <p>Website for inviting people to do camping.</p>
-            <h3>PROJECT INFO</h3>
-            <div class="h2"><h2>Year</h2><h2></h2><h2>2023</h2></div>
-            <div class="h2"><h2>Role</h2><h2></h2><h2>Frontend</h2></div>
-            <div class="link"><a href="https://rissi530.github.io/gushti-projekt/">LIVE DEMO<i class="fa-thin fa-arrow-right"></i></a></div>
+                <a href="more.html" class="about-more-link">MORE ABOUT ME</a>
+            </div>
         </div>
 
-
-    </div>
-</div>
-
-
- <div class="project1">
-    <div class="projekt">
-        <div class="projektimg">
-            <a href="https://rissi530.github.io/punimi/">
-                <img src="punimi3.png" alt="Fc Vushtrria">
-            </a>
+        <div class="about-image">
+            <img src="punimi.jpg" alt="About image">
         </div>
-        <div class="projektpro">
-            <h1>Cáfe Shop</h1>
-            <p>Website for a Cáfe. This web is especially for reservation, but and for presenting the Shop</p>
-            <div class="h3"><h3>PROJECT INFO</h3></div>
-            <div class="h2"><h2>Year</h2><h2></h2><h2>2023</h2></div>
-            <div class="h2"><h2>Role</h2><h2></h2><h2>Frontend</h2></div>
-            <div class="link"><a href="https://rissi530.github.io/punimi/">LIVE DEMO<i class="fa-thin fa-arrow-right"></i></a></div>
+    </section>
+
+    <section id="contact" class="section-divider"></section>
+
+    <section class="contact">
+        <div class="contact-left">
+            <h1>KEEP IN TOUCH</h1>
+            <p>Say hello at <a href="mailto:erissinani52@gmail.com">erissinani52@gmail.com</a></p>
+
+            <div class="social-actions">
+                <a class="btn-primary">MY SOCIAL MEDIA <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="https://www.linkedin.com/in/eris-sinani-3aab70267/" target="_blank" class="btn-icon"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/rissi530" target="_blank"  class="btn-icon"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/eris_sinani13/" target="_blank" class="btn-icon"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </div>
         </div>
 
-
-    </div>
-</div>
-
-
-
-
-<div id="about" class="about">
-    <div class="vij"></div>
-
-    <div class="abouts">
-    <div class="about1">
-        <div class="abouth1">About Me</div>
-    </div>
-
-    <div class="about2">
-        <div class="abouth2"><p>I am a software developer based in Vushtrri, Kosovo. Has Computer Engineering background.</p></div>
-        <div class="aboutp2"><p>I also share my passion and knowledge for web development as a Software Developer Instructor at Innovation Academy, where I design and deliver engaging and interactive courses on Python, JavaScript, and SQL. I enjoy helping students learn and master the skills and concepts that are essential for becoming proficient full stack engineers in the StarLabs industry.</p></div>
-        <div class="aboutlink"><a href="more.html">MORE ABOUT ME</a></div>
-    </div>
-    </div>
-
-    <div class="aboutimg"><img src="punimi.jpg" alt=""></div>
-
-
-</div>
-
-
-
-
-<div id="contact" class="contact">
-    <div class="vij"></div>
-
-  <div class="contacts">
-
-    <div class="contact-left">
-        <h1>KEEP IN TOUCH</h1>
-        <p>Say hello at <span class="emailp"><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHwQhTqVMWSRLXcVqNWXVLPgLnPbhgkBnQRbpxZmSqWPVlHPXqskKlZKkMbTGTsWknWWdWR">erissinani52@gmail.com</a></span> For more info here's my resume</p>
-        <div class="social-buttons">
-            <div class="buton10">MY SOCIAL MEDIA <i class="fa-solid fa-arrow-right"></i></div>
-            <a href="https://accounts.snapchat.com/v2/welcome" target="_blank" class="buton2"><i class="fa-brands fa-snapchat"></i></a>
-            <a href="https://github.com/rissi530" target="_blank" class="buton2"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.instagram.com/eris_sinani13/" target="_blank" class="buton2"><i class="fa-brands fa-instagram"></i></a>
+        <div class="contact-right">
+            <form class="form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Message"></textarea>
+            </form>
         </div>
-    </div>
-
-
-    <div class="contact-right">
-        <div class="inputi">
-            <label>Name<input type="text"></label>
-            <label>Email<input type="text"></label>
-            <label>Subject<input type="text"></label>
-            <label>Message<textarea></textarea></label>
-        </div>
-    </div>
-</div>
-
-
+    </section>
+    <script src="script.js"></script>
 </body>
-</html>        
+
+</html>
