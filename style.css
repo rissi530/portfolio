@@ -276,34 +276,147 @@ html {
 
 
 
+.about {  
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    font-family: Manrope, sans-serif;
+}
 
-
-
-
-
-
-
-/* 
-.projekt{
-    margin-top: 50px;
+.abouts {
+    width: 80%; 
     display: flex;
     justify-content: space-between;
+    align-items: flex-start; 
+    margin: 0 auto;
+    gap: 20px; 
 }
 
-.projektimg img{
-    border: 1px solid white;
+.about1 {
+    margin-top: 80px;
+    width: 40%;
 }
 
-.projektpro{
-    border: 1px solid white;
+.abouth1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    margin: 0;
 }
 
-.projekth1{
-    color: white;
+.about2 {
+    margin-top: 80px;
+    width: 55%; 
 }
 
-.projektip{
+.abouth2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.aboutp2 {
+    margin-top: 20px;
     color: #c7c7c7;
+    font-size: 18px;
+    line-height: 1.6;
+}
 
-} */
+.aboutlink{
+    margin-top: 20px;
+}
 
+.aboutlink a {
+    color: rgb(215, 232, 135);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    
+}
+
+.aboutimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.aboutimg img{
+    width: 1300px;
+    height: 700px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;         
+    padding: 50px 10%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    font-family: Manrope, sans-serif;
+}
+
+.contact-left {
+    flex: 1;   
+}
+
+.contact-left h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.contact-left p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    width: 55%;
+}
+
+.emailp{
+    align-items: center;
+    text-decoration: underline;
+    color: rgb(215, 232, 135);
+}
+
+.social-buttons button {
+    background-color: transparent;
+    border: none;
+    color: rgb(215, 232, 135);
+    padding: 20px 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.contact-right {
+    flex: 1; 
+}
+
+.inputi label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.inputi input, 
+.inputi textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Manrope, sans-serif;
+}
+
+.inputi textarea {
+    height: 100px;
+    resize: none;
+}
