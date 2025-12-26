@@ -34,26 +34,20 @@ html {
     padding: 3px;
 }
 
-.kryesori1 a{
+.kryesori1 a {
     color: #c7c7c7;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 12px;
     text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.3s ease;
+    border-bottom: 1px solid transparent; 
+    transition: border-color 0.5s;
 }
 
-.kryesori1 a:hover{
-    border-bottom-color: black;
+.kryesori1 a:hover {
+    width: 20%;
+    border-bottom: 1px solid rgb(215, 232, 135);
 }
-
-
-
-
-
-
-
 
 
 .kontainer{
@@ -90,37 +84,49 @@ html {
     justify-content: left;
 }
 
-.buton1 i{
-    font-size: 30px;
-    border-radius: 50%;
-    padding: 8px;
-    color: black;
-    align-items: center;
-}
-
-.buton1{
+.buton1 {
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     align-items: center;
+    gap: 8px;
     background-color: rgb(215, 232, 135);
     color: #1a1a1a;
     font-size: 16px;
-    font-weight:600;
-    padding: 4px;
+    font-family: Manrope, sans-serif;
+    font-weight: 600;
+    padding: 10px 18px;
     border-radius: 50px;
-    width: 40%;
-    border: none;
-    
+    width: 30%;
+    text-decoration: none;
+    transition: 0.3s ease;
 }
+
+.buton1 i{
+    font-size: 20px;      
+    transition: transform 0.3s ease, color 0.3s ease;
+  
+}
+
+.buton1:hover{
+    background-color: #222;
+    color: rgb(215, 232, 135);
+}
+
+.buton1:hover i{
+    transform: translateX(4px); 
+}
+
 
 .buton2{
     font-size: 25px;
     background-color: #1a1a1a;
     color: rgb(215, 232, 135);
     border-radius: 50%;
-    padding: 13px;
+    padding: 13px; 
     border: none;
+    
 }
+
 
 .buton3{
     font-size: 25px;
@@ -129,6 +135,18 @@ html {
     border-radius: 50%;
     padding: 13px;
     border: none;
+    transition: all 0.1s;
+}
+
+
+.buton2:hover{
+    
+ background-color:#4d4a4a;
+}
+
+.buton3:hover{
+     background-color:#4d4a4a;
+
 }
 
 .kontainer2 img{
@@ -206,7 +224,7 @@ html {
 
 .projektpro {
     width: 40%;
-    max-width: 600px; /* limiton gjerësinë e tekstit */
+    max-width: 600px; 
 }
 
 .projektpro h1 {
@@ -378,21 +396,16 @@ html {
     width: 55%;
 }
 
+.contact-left p a{
+    color: rgb(215, 232, 135);
+}
+
 .emailp{
     align-items: center;
     text-decoration: underline;
     color: rgb(215, 232, 135);
 }
 
-.social-buttons button {
-    background-color: transparent;
-    border: none;
-    color: rgb(215, 232, 135);
-    padding: 20px 5px;
-    margin-right: 10px;
-    cursor: pointer;
-    font-size: 30px;
-}
 
 .contact-right {
     flex: 1; 
@@ -420,3 +433,137 @@ html {
     height: 100px;
     resize: none;
 }
+
+.mores {
+    display: flex;            
+    justify-content: center;    
+    align-items: center;
+    min-height: 100vh;         
+}
+
+.more {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;           
+    justify-content: center;    
+    align-items: center;        
+    gap: 40px;                  
+}
+
+
+.moreh1 {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 0.9;
+
+}
+
+.morep {
+    margin-top: 20px;
+    color: #c7c7c7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.moreimg img{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.social-buttons {
+    display: flex;          
+    gap: 15px;              
+    margin-top: 40px;  
+    align-items: center;
+}
+
+.social-buttons a {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 13px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+.buton10 i{
+    font-size: 20px;      
+    transition: transform 0.3s ease, color 0.3s ease;
+  
+}
+
+.buton10{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    background-color: rgb(215, 232, 135);
+    color: #1a1a1a;
+    font-size: 18px;
+    font-family: Manrope, sans-serif;
+    font-weight: 600;
+    padding: 17px 22px;
+    border-radius: 50px;
+    width: 35%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.buton10:hover{
+    background-color: #222;
+    color: rgb(215, 232, 135);
+}
+
+.buton10:hover i{
+    transform: translateX(4px); 
+}
+
+
+
+
+
+
+.kurs{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.kursi a{
+    display: flex;              
+    align-items: center;        
+    gap: 8px;                  
+
+    font-family: Manrope, sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: rgb(215, 232, 135);
+    color: #1a1a1a;
+    padding: 18px 28px;
+    border-radius: 40px;
+    transition: 0.3s ease;
+}
+
+.kursi a i{
+    font-size: 22px;          
+    padding: 9px;
+    border-radius: 50%;
+}
+
+
+.kursi a:hover{
+    background-color: #222;
+    color: rgb(215, 232, 135);
+    transform: translateY(-2px);
+} 
+
+
+
